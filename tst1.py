@@ -14,6 +14,6 @@ def func():
     try:
         print("hello")
         func()
-        x=2
+        x=2;y=0.1
     except Exception as e:
         return "Exception ", e
